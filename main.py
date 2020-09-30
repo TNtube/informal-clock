@@ -30,7 +30,7 @@ def position_col() -> dict:
            "SEPT": (8, 11, 3), "HUIT": (0, 3, 4), "NEUF": (5, 8, 4), "DIX": (9, 11, 4),
            "ONZE": (3, 6, 5), "MIDI": (8, 11, 5), "HEURE": (0, 4, 6), "HEURES": (0, 5, 6),
            "MOINS": (7, 11, 6), "LE": (0, 1, 7), "VINGT": (2, 6, 7), "CINQ2": (8, 11, 7),
-           "ET": (0, 1, 8), "QUART": (3, 7, 8), "DIX2": (9, 11, 8), "DEMIE": (7, 11, 9)}
+           "ET": (0, 1, 8), "QUART": (3, 7, 8), "DIX2": (9, 11, 8), "DEMIE": (4, 8, 9)}
     for key, val in pos.items():
         pos[key] = [(i, val[2])for i in range(val[0], val[1]+1)]
     return pos
